@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #b0c4de; /* light steel blue */
+  color: #1f2933;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.trailer {
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  border-radius: 14px;
+  margin-bottom: 1.75rem;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+  font-size: 2.6rem;
+  margin-bottom: 0.4rem;
+}
+
+.tagline {
+  font-size: 1.1rem;
+  opacity: 0.85;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 14px;
+  padding: 2rem;
+  margin-bottom: 2.5rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0.75rem;
+}
+
+.email-form {
+  display: flex;
+  gap: 0.6rem;
+  margin-top: 1rem;
+  max-width: 420px;
+}
+
+.email-form input {
+  flex: 1;
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  font-size: 1rem;
+}
+
+.email-form button {
+  padding: 0.75rem 1.1rem;
+  border-radius: 8px;
+  border: none;
+  background: #355c7d;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.email-form button:hover {
+  background: #2c4c66;
+}
+
+footer {
+  text-align: center;
+  opacity: 0.6;
+  font-size: 0.9rem;
+  margin-top: 3rem;
+}
